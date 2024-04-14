@@ -9,7 +9,7 @@ The IP Info Checker is a Python script that provides detailed information about 
 
 ## Setup
 
-1. Clone the repository: `git clone https://github.com/your_username/ip-info-checker.git`
+1. Clone the repository: `git clone https://github.com/jrowleycsa/ip-info-checker.git`
 2. Obtain an API key from [abuseIPDB](https://www.abuseipdb.com)
 3. Download the IP2Location database file from [IP2Location Lite](https://lite.ip2location.com/ip2location-lite)
 4. Add your AbuseIPDB API key to a file named api.txt and add its path within the script (/path/to/api.txt).
