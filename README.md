@@ -1,7 +1,8 @@
 # IP Info Checker
 
 The IP Info Checker is a Python script that provides detailed information about an IP address. It utilizes the AbuseIPDB API to fetch abuse reports and the IP2Location database for geolocation information.
-Prerequisites
+
+## Prerequisites
 - Python 3.x installed
 - requests (pip install requests)
 - IP2Location (pip install IP2Location)
@@ -13,6 +14,7 @@ Prerequisites
 3. Download the IP2Location database file from [IP2Location Lite](https://lite.ip2location.com/ip2location-lite)
 4. Add your AbuseIPDB API key to a file named api.txt and add its path within the script (/path/to/api.txt).
 5. Ensure you have the IP2Location database file (IP2LOCATION-LITE-DB5.IPV6.BIN) and add its path within the script (/path/to/IP2LOCATION-LITE-DB5.IPV6.BIN).
+6. 
 
 ## Usage
 
