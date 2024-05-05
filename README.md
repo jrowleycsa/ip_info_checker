@@ -15,6 +15,8 @@ The IP Info Checker is a Python script that provides detailed information about 
 4. Add your AbuseIPDB API key to a file named api.txt and add its path within the script (/path/to/api.txt).
 ![image](https://github.com/jrowleycsa/ip_info_checker/assets/152403367/c6a0108d-ba38-4353-839a-47aaf05dee65)
 5. Ensure you have the IP2Location database file (IP2LOCATION-LITE-DB5.IPV6.BIN) and add its path within the script (/path/to/IP2LOCATION-LITE-DB5.IPV6.BIN).
+![image](https://github.com/jrowleycsa/ip_info_checker/assets/152403367/a9391c94-cc17-4d24-910c-e11a38f75156)
+
 
 ### Python venv
 
