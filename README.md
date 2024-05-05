@@ -18,7 +18,7 @@ The IP Info Checker is a Python script that provides detailed information about 
 
 ## Usage
 
-1. Run the script: `python ip_info_checker.py`
+1. Run the script: `python3 ip_info_checker.py`
 2. Enter the IP address you want to check when prompted. Type exit to quit the script.
 3. The script will fetch abuse reports and geolocation information for the entered IP address and display it in the terminal.
    
