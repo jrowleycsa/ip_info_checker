@@ -15,6 +15,13 @@ The IP Info Checker is a Python script that provides detailed information about 
 4. Add your AbuseIPDB API key to a file named api.txt and add its path within the script (/path/to/api.txt).
 5. Ensure you have the IP2Location database file (IP2LOCATION-LITE-DB5.IPV6.BIN) and add its path within the script (/path/to/IP2LOCATION-LITE-DB5.IPV6.BIN).
 
+### Python venv
+
+A Python virtual environment is an isolated workspace for Python projects, ensuring dependencies are managed per project
+
+1. create an environment `python3 -m venv my_project`
+2. Start the environment `source my_project/bin/activate`
+3. install dependencies `pip install requests IP2Location`
 
 ## Usage
 
@@ -36,3 +43,9 @@ The script displays the following information for the provided IP address:
 - Country Name
 - Total Reports of Abuse
 - Abuse Confidence Score
+
+## Troubleshooting
+
+### ValueError: Invalid header value
+In this instance, there is likely a newline character within the api.txt file, to fix run `truncate -s -1 api.txt`
+
