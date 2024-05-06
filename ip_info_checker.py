@@ -85,7 +85,7 @@ def process_ip(ip):
                     abuseConf = "NaN"
 
                 # Print to terminal
-                print(f"'{ipaddr}' is owned by '{isp}' and hosted in {cityName}, {regionName}, {countryName}, with {totalRep} reports of abuse, and a confidence of abuse of {abuseConf}%")
+                print(f"'{ipaddr}' is owned by '{isp}' and hosted in {cityName}, {regionName}, {countryName}, with {totalRep} reports of abuse, and a confidence of abuse of {abuseConf}%.")
 
             except json.JSONDecodeError as json_error:
                 # Handle JSON decoding errors
