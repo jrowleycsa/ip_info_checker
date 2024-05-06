@@ -3,11 +3,11 @@ import json
 import IP2Location
 import os
 
-# Setting API key
+# Setting API key (use absolute path)
 apiFile = "/path/to/api.txt"
 
 # Connecting to IP2Location DB
-dbpath = "/path/to/IP2LOCATION-LITE-DB5.IPV6.BIN"  # Path to the database file
+dbpath = "/path/to/IP2LOCATION-LITE-DB5.IPV6.BIN"  # Path to the database file (use absolute path)
 dbconn = IP2Location.IP2Location(os.path.join("data", dbpath))
 
 # Reading API key
@@ -85,7 +85,7 @@ def process_ip(ip):
                     abuseConf = "NaN"
 
                 # Print to terminal
-                print(f"'{ipaddr}' owned by '{isp}' and hosted in {cityName}, {regionName}, {countryName}, with {totalRep} reports of abuse, and an abuse confidence rate of {abuseConf}%")
+                print(f"'{ipaddr}' is owned by '{isp}' and hosted in {cityName}, {regionName}, {countryName}, with {totalRep} reports of abuse, and a confidence of abuse of {abuseConf}%")
 
             except json.JSONDecodeError as json_error:
                 # Handle JSON decoding errors
